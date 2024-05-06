@@ -1,0 +1,104 @@
+<html>
+<head>
+
+
+
+<title>Website Assignment</title>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<style>
+body{
+	transition: background 0.5s, color 0.5s;
+	background-image:url("https://images.rawpixel.com/image_400/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3YxMDgwLTE2NWUteC5qcGc.jpg");
+    }
+img{
+	height:300px;
+	width:300px;
+	display:block;
+	margin:auto;
+}
+</style>
+<body>
+<header>
+<center>
+<h1 id="main-heading">OUR UNIVERSE</h1>
+
+<h2>
+<ul>
+<li style ="display:inline-block;">
+<a href= "https://science.nasa.gov/astrophysics/focus-areas/black-holes/">BLACK HOLES</a></li>
+<li style ="display:inline-block;">
+<a href= "https://science.nasa.gov/astrophysics/focus-areas/how-do-stars-form-and-evolve/">STARS</a></li>
+<li style ="display:inline-block;">
+<a href= "https://universe.nasa.gov/galaxies/basics/">GALAXIES</a></li>
+<li style ="display:inline-block;">
+<a href= "https://spaceplace.nasa.gov/supernova/en/">SUPERNOVAE</a></li>
+</ul>
+</h2>
+</center>
+</header>
+<hr>
+<article>
+<marquee ><h3 id="marquee-text">Our Universe is an extraordinary puzzle; older than life itself.</h3></marquee>
+<h2 id="title-text">So what is the Universe?</h2>
+<p id="universe-text"> That is a difficult question to explain.The universe is everything. It includes all of space, and all the matter and energy that space contains. It even includes time itself and, of course, it includes you.The universe, on the other hand, appears to be about 13.8 billion years old. Scientists arrived at that number by measuring the ages of the oldest stars and the rate at which the universe expands. They also measured the expansion by observing the Doppler shift in light from galaxies, almost all of which are traveling away from us and from each other. The farther the galaxies are, the faster they are traveling away. One might expect gravity to slow the galaxies motion from one another, but instead they are speeding up and scientists do not know why. In the distant future, the galaxies will be so far away that their light will not be visible from Earth.
+<br>
+
+Put another way, the matter, energy and everything in the universe (including space itself) was more compact last Saturday than it is today. The same can be said about any time in the past, last year, a million years ago, a billion years ago. But the past does not go on forever.
+<br>
+The universe contains all the energy and matter there is. Much of the observable matter in the universe takes the form of individual atoms of hydrogen, which is the simplest atomic element, made of only a proton and an electron (if the atom also contains a neutron, it is instead called deuterium). Two or more atoms sharing electrons is a molecule. Many trillions of atoms together is a dust particle. Smoosh a few tons of carbon, silica, oxygen, ice, and some metals together, and you have an asteroid. Or collect 333,000 Earth masses of hydrogen and helium together, and you have a Sun-like star.</p>
+
+<h2>The history of our understanding</h2>
+<p id="history">The Babylonian sky was a solid dome through which moisture sometimes seeped as rain, Koestler writes, while the waters below burst to the surface in the form of natural springs, and each day the sun, moon and stars performed a slow, ritual dance across its ceiling, entering from the east and exiting to the west.
+<br>
+The Egyptians thought differently. At first, they conceived of their sky as a cow, one foot planted squarely at each corner of the Earth, or alternatively as a woman resting on her hands and knees. Later, they likened it to a vaulted metal lid. The sun and moon gods, they believed, sailed along a river that flowed upon an elevated gallery inside the box.
+<br>
+It is generally known that the Indians believed in a cyclic universe. This idea is related to three other beliefs: (i), time is endless and space has infinite extension; (ii), earth is not the center of the universe; and (iii), laws govern all development, including the creation and destruction of the universe. It was believed that there are connections between the physical and the psychological worlds, and an equivalence existed between the outer cosmos and the inner cosmos of the individual. This is expressed in the famous sentence-
+<br>
+<i>yat pinde tad brahmnde
+<br>
+as in the cell so in the universe</i>
+</p>
+</article>
+<img src="https://cdn.mos.cms.futurecdn.net/TarH6Nkf4tBo99QFQKRdLf-1200-80.jpg"</img>
+<section>
+"To know more about our Universe, visit" 
+<a href = "https://spaceplace.nasa.gov/menu/space/">NASA SpacePlace</a>
+</section>
+<button id="change-color">Change Colors</button>
+
+<script>
+
+$(document).ready(function() {
+
+$("#change-color").click(function() {
+
+$("#main-heading, #marquee-text, #universe-text").css({
+'background-color': 'lightblue',
+'color': 'darkblue',
+'font-size': '20px'
+ });
+
+$("#title-text").css({
+'background-color':'lightgreen',
+'color':'darkgreen',
+'font-size':'20px'
+});
+
+$("#history").css({
+'background-color':'Gold',
+'color':'blueViolet',
+'font-size':'20px'
+});
+
+
+
+ });
+ });
+</script>
+
+
+</body>
+</head>
+</html>
+
+
